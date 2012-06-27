@@ -4,11 +4,14 @@ I'm not very much, just a few functopms that wrap clj-redis's pub/sub functions.
 
 ## Usage
 
- * Download a start Redis
+ * Download and start Redis
  * In one terminal start a subscriber
+   
      lein run sub chan
+
    This will hang waiting for messages to print.
  * In a second terminal publish some messages
+     
      lein run pub chan hello
 
 You should see you messages appear in the first term.
