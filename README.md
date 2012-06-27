@@ -14,7 +14,7 @@ I'm not very much, just a few functions that wrap clj-redis's pub/sub functions.
      
      lein run pub chan hello
 
-You should see you messages appear in the first term.
+You should see your messages appear in the first term.
 
 ## License
 
