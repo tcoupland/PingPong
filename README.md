@@ -1,6 +1,6 @@
 # pingpong
 
-I'm not very much, just a few functopms that wrap clj-redis's pub/sub functions.
+I'm not very much, just a few functions that wrap clj-redis's pub/sub functions.
 
 ## Usage
 
